@@ -1,11 +1,11 @@
 {
-    "name": "SoftwareSerial",
+    "name": "SoftwareSerialTxonly",
     "keywords": "SoftwareSerial",
-    "description": "The SoftwareSerial library has been developed to allow serial communication, using software to replicate the functionality of the hardware UART. It is possible to have multiple software serial ports with speeds up to 115200 bps. On 32 bit Teensy boards, SoftwareSerial uses the real hardware serial ports (and is restricted to only those pins), but allows compatibility with programs that depend on SoftwareSerial.",
+    "description": "The SoftwareSerialTxonly library has been forked to allow (Tx only) serial communication, using software to replicate the functionality of the hardware UART. It is possible to have multiple software serial ports with speeds up to 115200 bps. On 32 bit Teensy boards, SoftwareSerial uses the real hardware serial ports (and is restricted to only those pins), but allows compatibility with programs that depend on SoftwareSerial.",
     "repository":
     {
       "type": "git",
-      "url": "https://github.com/featherfly/SoftwareSerial.git"
+      "url": "https://github.com/lechk82/SoftwareSerialTxonly"
     },
     "authors":
     [
